@@ -1,0 +1,32 @@
+{
+  "name": "agustino-halim",
+  "version": "1.0.0",
+  "description": "CRUD node.js with mangodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "CRUD",
+    "node.js",
+    "MangoDB"
+  ],
+  "author": "Agustino Halim",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.13",
+    "redis": "^3.1.2",
+    "shortid": "^2.2.15"
+  }
+}
