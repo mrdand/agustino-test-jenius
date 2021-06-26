@@ -24,7 +24,7 @@ function payloadAuthorization(req, res) {
     });
   } else {
     response.status = false;
-    response.error.message = "Authorization header cannot be emptyd";
+    response.error.message = "Authorization header cannot be empty!";
   }
 
   return response;

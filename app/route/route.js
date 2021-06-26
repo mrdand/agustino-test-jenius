@@ -6,7 +6,7 @@ const login = require("./login");
 const generate_token = require("./generate-token");
 router.get("/", (req, res) => {
     res.json({
-        message: "success API",
+        message: "success API!",
     });
 }); 
 router.use("/register", register);
